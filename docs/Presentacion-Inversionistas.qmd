@@ -1,0 +1,429 @@
+---
+title: "AMar Fe / ToLove Faith"
+subtitle: "Pitch Deck & Tesis de Inversión — Ronda Semilla"
+author: "Equipo Fundador AMar Fe"
+date: "Septiembre 2026"
+format:
+  revealjs:
+    theme: default
+    transition: slide
+    slide-number: true
+    controls: true
+    progress: true
+    center: false
+    embed-resources: true
+    width: 1280
+    height: 720
+    css: presentacion.css
+---
+
+## 🌹 AMar Fe / ToLove Faith
+
+### El *Uber* de las flores, emociones y entregas en tiempo real
+
+```{=html}
+<div class="subtitle-tag">
+  Ronda Semilla: $50,000 USD · SAFE Cap: $1.2M - $1.5M USD · Corredor México - EE.UU.
+</div>
+
+<div class="grid-4">
+  <div class="kpi-card">
+    <div class="kpi-label">Target Capital</div>
+    <div class="kpi-value">$50,000</div>
+    <div class="kpi-sub">SAFE / 20% Desc.</div>
+  </div>
+  <div class="kpi-card highlight">
+    <div class="kpi-label">Activo Construido</div>
+    <div class="kpi-value">$90,200</div>
+    <div class="kpi-sub">12 meses / 1,500 hrs</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">Unit Economics</div>
+    <div class="kpi-value">5.9x</div>
+    <div class="kpi-sub">LTV / CAC (23.8% Margen)</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">TAM Binacional</div>
+    <div class="kpi-value">$2,950M</div>
+    <div class="kpi-sub">USD Anuales</div>
+  </div>
+</div>
+```
+
+---
+
+## El Problema
+
+### El mercado floral tradicional está roto
+
+```{=html}
+<div class="grid-3">
+  <div class="problem-card">
+    <div class="icon">🥀</div>
+    <h4>Falta de Certeza</h4>
+    <p>El 72% de las ventas son informales. Nunca sabes si el arreglo llegará fresco, a tiempo o si llegará.</p>
+  </div>
+  <div class="problem-card">
+    <div class="icon">💔</div>
+    <h4>Cero Experiencia Emocional</h4>
+    <p>Las tarjetas son genéricas de papel impreso sin personalización real ni privacidad para el remitente.</p>
+  </div>
+  <div class="problem-card">
+    <div class="icon">🇺🇸 ➔ 🇲🇽</div>
+    <h4>Barrera Transfronteriza</h4>
+    <p>38M de hispanos en EE.UU. sufren comisiones abusivas para enviar detalles a sus seres queridos en México.</p>
+  </div>
+</div>
+```
+
+---
+
+## Nuestra Solución
+
+### Tecnología hiperlocal de última milla para momentos sentimentales
+
+```{=html}
+<div class="grid-2">
+  <div class="solution-card">
+    <h4>⚡ Entrega en 60 a 90 Minutos</h4>
+    <p>Conexión directa con talleres florales locales certificados cercanos al destinatario vía GPS.</p>
+    
+    <h4 style="margin-top: 18px;">💌 Tarjeta de Dedicatoria Luxury</h4>
+    <p>Sobre digital emotivo con remitente identificado o admirador secreto confidencial.</p>
+  </div>
+
+  <div class="solution-card highlight-box">
+    <h4>🛰️ Telemetría Satelital en Vivo</h4>
+    <p>Tanto el remitente en EE.UU. como el destinatario ven al repartidor en el mapa minuto a minuto vía Supabase Realtime.</p>
+
+    <h4 style="margin-top: 18px;">📸 Evidencia Fotográfica</h4>
+    <p>Validación obligatoria del arreglo listo y en manos del destinatario en Supabase Storage.</p>
+  </div>
+</div>
+```
+
+## Análisis Competitivo & Ventajas Disruptivas
+
+### Frente a EnviaFlores, LolaFlora y Apps de Delivery
+
+```{=html}
+<div style="margin-top: 12px;">
+  <table class="deck-table" style="font-size: 0.72rem;">
+    <thead>
+      <tr>
+        <th>Dimensión</th>
+        <th>AMar Fe / ToLove Faith</th>
+        <th>EnviaFlores</th>
+        <th>LolaFlora / Mizu</th>
+        <th>Rappi / Uber</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Tiempo de Entrega</strong></td>
+        <td><strong style="color: #059669;">⚡ 60 a 90 min (On-Demand)</strong></td>
+        <td>4 a 6 horas o ventanas de día</td>
+        <td>Mismo día / Retrasos 24h</td>
+        <td>45-60 min (sin floristerías)</td>
+      </tr>
+      <tr>
+        <td><strong>Telemetría GPS Satelital</strong></td>
+        <td><strong style="color: #059669;">🛰️ Satelital en vivo con ETA</strong></td>
+        <td>❌ Pasos estáticos ("En camino")</td>
+        <td>❌ Solo SMS / Correo</td>
+        <td>⚠️ Básica general</td>
+      </tr>
+      <tr>
+        <td><strong>Cuidado de Flor en Tránsito</strong></td>
+        <td><strong style="color: #059669;">🚗 Automóvil Climatizado</strong></td>
+        <td>🚚 Ruteo masivo (horas de calor)</td>
+        <td>🚚 Paquetería terciarizada</td>
+        <td>🛵 Moto / Mochila (maltrato)</td>
+      </tr>
+      <tr>
+        <td><strong>Dedicatoria & Admirador</strong></td>
+        <td><strong style="color: #059669;">💌 Caligrafía + Modo Secreto</strong></td>
+        <td>📄 Tarjeta impresa térmica</td>
+        <td>📄 Texto plano</td>
+        <td>❌ Sin dedicatoria</td>
+      </tr>
+      <tr>
+        <td><strong>Evidencia Visual KDS</strong></td>
+        <td><strong style="color: #059669;">📸 Foto obligatoria en taller</strong></td>
+        <td>❌ No disponible</td>
+        <td>❌ No disponible</td>
+        <td>❌ No disponible</td>
+      </tr>
+      <tr>
+        <td><strong>Comisión para Florista</strong></td>
+        <td><strong style="color: #059669;">💎 12% Fijo (Retiene 88%)</strong></td>
+        <td>20% - 30% variable</td>
+        <td>25% - 35% intermediación</td>
+        <td>25% - 35% + pasarela</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+```
+
+---
+
+## Oportunidad de Mercado (TAM)
+
+### $2,950 Millones de USD disponibles
+
+```{=html}
+<div class="solution-card highlight-box" style="margin-top: 20px;">
+  <table class="deck-table">
+    <thead>
+      <tr>
+        <th>Nivel de Mercado</th>
+        <th>Monto (USD)</th>
+        <th>Descripción y Alcance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>TAM (Mercado Total)</strong></td>
+        <td><strong>$2,950 Millones</strong></td>
+        <td>Mercado floral México ($2,100M) + Regalos Transfronterizos EE.UU. ($850M)</td>
+      </tr>
+      <tr>
+        <td><strong>SAM (Mercado Atendible)</strong></td>
+        <td><strong>$420 Millones</strong></td>
+        <td>E-commerce y entregas on-demand urbanas (CDMX, MTY, GDL)</td>
+      </tr>
+      <tr class="total-row">
+        <td><strong>SOM (Objetivo 18 Meses)</strong></td>
+        <td><strong>$18.5 Millones</strong></td>
+        <td>4.4% de penetración en el segmento premium digitalizado</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+```
+
+---
+
+## Modelo de Negocio
+
+### Take-Rate del 23.8% con Unit Economics altamente rentables
+
+```{=html}
+<div class="grid-2">
+  <div>
+    <h4 style="margin-bottom: 12px;">Desglose por Pedido (AOV: $1,068 MXN)</h4>
+    <table class="deck-table">
+      <thead>
+        <tr>
+          <th>Concepto</th>
+          <th>Monto</th>
+          <th>Ingreso Neto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Arreglo Floral</td>
+          <td>$850 MXN</td>
+          <td>$153 MXN (18%)</td>
+        </tr>
+        <tr>
+          <td>Tarifa Servicio</td>
+          <td>$39 MXN</td>
+          <td>$39 MXN (100%)</td>
+        </tr>
+        <tr>
+          <td>Envío Dinámico</td>
+          <td>$90 MXN</td>
+          <td>$18 MXN (20%)</td>
+        </tr>
+        <tr>
+          <td>Dedicatoria / Addon</td>
+          <td>$89 MXN</td>
+          <td>$44.50 MXN (50%)</td>
+        </tr>
+        <tr class="total-row">
+          <td>Total por Pedido</td>
+          <td>$1,068 MXN</td>
+          <td>$254.50 MXN (23.8%)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="unit-summary">
+    <div class="metric-pill">
+      <span class="num">$120 MXN</span>
+      <span class="lbl">CAC (Adquisición de Cliente)</span>
+    </div>
+    <div class="metric-pill">
+      <span class="num">$2,880 MXN</span>
+      <span class="lbl">LTV (Valor de Vida a 12 meses)</span>
+    </div>
+    <div class="metric-pill golden">
+      <span class="num">5.9x</span>
+      <span class="lbl">Ratio LTV / CAC (Benchmark: >3x)</span>
+    </div>
+    <div class="metric-pill">
+      <span class="num">1ra Orden</span>
+      <span class="lbl">Payback Period Inmediato</span>
+    </div>
+  </div>
+</div>
+```
+
+---
+
+## Tracción y Proyección Financiera (Q1)
+
+### De 520 a 4,600 pedidos mensuales en 90 días
+
+```{=html}
+<div style="margin-top: 20px;">
+  <table class="deck-table">
+    <thead>
+      <tr>
+        <th>Indicador</th>
+        <th>Mes 1 (Piloto CDMX)</th>
+        <th>Mes 2 (+ USA-MX)</th>
+        <th>Mes 3 (+ MTY / GDL)</th>
+        <th>Total Q1</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Floristerías Aliadas</td>
+        <td>18</td>
+        <td>45</td>
+        <td>110</td>
+        <td><strong>110</strong></td>
+      </tr>
+      <tr>
+        <td>Repartidores Activos</td>
+        <td>25</td>
+        <td>65</td>
+        <td>160</td>
+        <td><strong>160</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Pedidos Totales</strong></td>
+        <td>520</td>
+        <td>1,850</td>
+        <td>4,600</td>
+        <td><strong>6,970</strong></td>
+      </tr>
+      <tr>
+        <td>GMV (Volumen Transaccionado)</td>
+        <td>$30.8K USD</td>
+        <td>$109.7K USD</td>
+        <td>$272.9K USD</td>
+        <td><strong>$433.5K USD</strong></td>
+      </tr>
+      <tr>
+        <td>Ingresos Netos AMar Fe (23.8%)</td>
+        <td>$7.3K USD</td>
+        <td>$26.1K USD</td>
+        <td>$64.9K USD</td>
+        <td><strong>$98.4K USD</strong></td>
+      </tr>
+      <tr class="total-row">
+        <td><strong>Utilidad Operativa (EBITDA)</strong></td>
+        <td>+$1.2K USD</td>
+        <td>+$11.0K USD</td>
+        <td>+$35.0K USD</td>
+        <td><strong>+$47.3K USD</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+```
+
+---
+
+## Retorno de Inversión (ROI)
+
+### Tesis sólida de recuperación de liquidez y apreciación patrimonial
+
+```{=html}
+<div class="grid-2">
+  <div class="roi-card">
+    <h3>💧 Retorno de Liquidez (Q1)</h3>
+    <div class="big-percent">+94.6%</div>
+    <p>El flujo operativo acumulado ($47,316 USD) recupera casi el 100% de la inversión en solo 90 días.</p>
+    <p style="margin-top: 8px; font-weight: 700; color: #059669;">Break-even alcanzado en el Mes 2.</p>
+  </div>
+
+  <div class="roi-card gold-border">
+    <h3>📈 Apreciación de Capital</h3>
+    <div class="big-percent">+316%</div>
+    <p>Valuación estimada Post-Q1 a múltiplo conservador de 1.2x GMV anualizado:</p>
+    <div class="formula-box">Valuación Q1 = $433,553 × 4 × 1.2 = $2.08M USD</div>
+    <p>Protección contra dilución mediante SAFE con Cap de $1.2M USD.</p>
+  </div>
+</div>
+```
+
+---
+
+## La Ronda y Uso de Fondos
+
+### Levantando $50,000 USD bajo instrumento SAFE
+
+```{=html}
+<div class="grid-2">
+  <div>
+    <h4>Términos del SAFE</h4>
+    <ul class="terms-list">
+      <li><strong>Monto Objetivo:</strong> $50,000 USD (opción a $100K USD)</li>
+      <li><strong>Valuation Cap:</strong> $1,200,000 USD</li>
+      <li><strong>Descuento por Entrada Temprana:</strong> 20%</li>
+      <li><strong>Derechos de Información:</strong> Reporte mensual de métricas</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4>Distribución del Capital</h4>
+    <div class="budget-bar">
+      <div class="bar mkt" style="width: 40%;">40% Marketing</div>
+      <div class="bar dev" style="width: 30%;">30% Tech</div>
+      <div class="bar ops" style="width: 20%;">20% Floristas</div>
+      <div class="bar leg" style="width: 10%;">10% Legal</div>
+    </div>
+    <ul class="budget-list" style="margin-top: 16px;">
+      <li><strong>$20,000 USD:</strong> Pauta y adquisición de usuarios de alto LTV</li>
+      <li><strong>$15,000 USD:</strong> Infraestructura satelital, WebSockets y backend</li>
+      <li><strong>$10,000 USD:</strong> Onboarding y certificación de 110 floristerías</li>
+      <li><strong>$5,000 USD:</strong> Cumplimiento legal y contingencias</li>
+    </ul>
+  </div>
+</div>
+```
+
+---
+
+## ¿Por Qué Invertir Hoy?
+
+```{=html}
+<div class="grid-3">
+  <div class="why-card">
+    <div class="step-num">1</div>
+    <h4>Tecnología Lista</h4>
+    <p>Monorepo productivo funcional: Next.js 15, Flutter iOS/Android y Supabase PostGIS ya integrados.</p>
+  </div>
+  <div class="why-card">
+    <div class="step-num">2</div>
+    <h4>Viento a Favor</h4>
+    <p>Auge de remesas emocionales con pago en EE.UU. y cumplimiento en México con cero fricción.</p>
+  </div>
+  <div class="why-card">
+    <div class="step-num">3</div>
+    <h4>Margen Defendible</h4>
+    <p>Modelo de negocio con flujo positivo desde el Mes 2 y LTV/CAC de 5.9x.</p>
+  </div>
+</div>
+
+<div class="contact-box" style="margin-top: 30px;">
+  <h3 style="margin: 0 0 6px 0; font-size: 1.3rem;">🌹 AMar Fe / ToLove Faith</h3>
+  <p style="margin: 0; color: #700B34; font-weight: 600;">Conectando corazones en tiempo real · Inversiones & Contacto: <strong>investors@amarfe.com</strong></p>
+</div>
+```

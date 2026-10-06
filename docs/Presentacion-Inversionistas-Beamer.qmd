@@ -1,0 +1,251 @@
+---
+title: "AMar Fe / ToLove Faith"
+subtitle: "Pitch Deck & Tesis de Inversión — Ronda Semilla"
+author: "Equipo Fundador AMar Fe"
+date: "Septiembre 2026"
+format:
+  beamer:
+    theme: Madrid
+    colortheme: rose
+    fonttheme: structurebold
+    aspectratio: 169
+    toc: false
+    slide-level: 2
+    header-includes:
+      - \usepackage{xcolor}
+      - \definecolor{primaryrose}{HTML}{E6396F}
+      - \definecolor{primarydeep}{HTML}{831843}
+      - \definecolor{primaryvelvet}{HTML}{700B34}
+      - \definecolor{champagne}{HTML}{FDF6EE}
+      - \setbeamercolor{title}{fg=white,bg=primaryvelvet}
+      - \setbeamercolor{frametitle}{fg=white,bg=primarydeep}
+      - \setbeamercolor{structure}{fg=primarydeep}
+      - \setbeamercolor{palette primary}{fg=white,bg=primarydeep}
+      - \setbeamercolor{palette secondary}{fg=white,bg=primaryvelvet}
+      - \setbeamercolor{palette tertiary}{fg=white,bg=primaryrose}
+      - \setbeamercolor{palette quaternary}{fg=white,bg=primaryvelvet}
+      - \usepackage{tcolorbox}
+      - \tcbuselibrary{skins,breakable}
+---
+
+## 🌹 AMar Fe / ToLove Faith
+
+### El *Uber* de las flores, emociones y entregas en tiempo real
+
+\begin{tcolorbox}[colback=champagne,colframe=primaryrose,arc=3mm,boxrule=1pt,title=\textbf{Highlights Ejecutivos — Ronda Semilla}]
+\begin{itemize}
+  \item \textbf{Target Capital:} \$50,000 USD (SAFE $\cdot$ Valuation Cap: \$1.2M - \$1.5M USD $\cdot$ 20\% Desc.)
+  \item \textbf{Activo Tecnológico Construido:} \$90,200 USD (12 meses $\cdot$ 1,500 hrs equipo multidiscliplinario)
+  \item \textbf{Unit Economics:} 5.9x LTV/CAC $\cdot$ Margen Bruto: 23.8\% $\cdot$ AOV: \$1,068 MXN
+  \item \textbf{Mercado Total (TAM):} \$2,950M USD (México + Corredor Remesas EE.UU.)
+\end{itemize}
+\end{tcolorbox}
+
+---
+
+## El Problema en el Mercado Tradicional
+
+### Tres fricciones críticas no resueltas
+
+\begin{columns}
+\begin{column}{0.33\textwidth}
+\begin{tcolorbox}[colback=white,colframe=primarydeep,arc=2mm,title=\textbf{1. Incertidumbre}]
+\small
+El 72\% del mercado floral en México es informal. No hay certeza de frescura ni horario de entrega garantizado.
+\end{tcolorbox}
+\end{column}
+
+\begin{column}{0.33\textwidth}
+\begin{tcolorbox}[colback=white,colframe=primarydeep,arc=2mm,title=\textbf{2. Frialdad}]
+\small
+Tarjetas de papel genéricas sin personalización real ni privacidad para el remitente o admirador secreto.
+\end{tcolorbox}
+\end{column}
+
+\begin{column}{0.33\textwidth}
+\begin{tcolorbox}[colback=white,colframe=primarydeep,arc=2mm,title=\textbf{3. Frontera EE.UU.}]
+\small
+38M de hispanos en EE.UU. sufren altas tarifas y comisiones bancarias para enviar regalos a México.
+\end{tcolorbox}
+\end{column}
+\end{columns}
+
+---
+
+## La Solución AMar Fe
+
+### Tecnología hiperlocal de última milla para momentos sentimentales
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{tcolorbox}[colback=champagne,colframe=primaryvelvet,arc=2mm,title=\textbf{Experiencia Inmediata \& Emocional}]
+\begin{itemize}
+  \item \textbf{Entrega en 60 a 90 min:} Conexión algorítmica con floristerías certificadas cercanas.
+  \item \textbf{Dedicatoria Luxury:} Sobre digital emotivo con remitente abierto o anónimo.
+\end{itemize}
+\end{tcolorbox}
+\end{column}
+
+\begin{column}{0.5\textwidth}
+\begin{tcolorbox}[colback=champagne,colframe=primaryrose,arc=2mm,title=\textbf{Telemetría \& Confianza}]
+\begin{itemize}
+  \item \textbf{Tracking GPS en Vivo:} Remitente en EE.UU. y destinatario ven la ruta en el mapa en tiempo real.
+  \item \textbf{Evidencia Fotográfica:} Foto obligatoria del ramo antes de salir a entrega.
+\end{itemize}
+\end{tcolorbox}
+\end{column}
+\end{columns}
+
+## Análisis Competitivo & Ventajas Disruptivas
+
+### Frente a EnviaFlores, LolaFlora y Apps de Delivery
+
+\begin{table}
+\scriptsize
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Característica} & \textbf{AMar Fe} & \textbf{EnviaFlores} & \textbf{Rappi / Uber} \\
+\hline
+\textbf{Tiempo de Entrega} & \textbf{60 a 90 min (On-Demand)} & 4 a 6 horas & 45 a 60 min \\
+\textbf{Telemetría GPS} & \textbf{Satelital en vivo + ETA} & Pasos estáticos & Ruta básica \\
+\textbf{Cuidado de Flor} & \textbf{Automóvil Climatizado} & Ruteo masivo (calor) & Moto (maltrato) \\
+\textbf{Dedicatoria} & \textbf{Caligrafía + Admirador} & Térmica genérica & Sin dedicatoria \\
+\textbf{Evidencia KDS} & \textbf{Foto obligatoria en taller} & No disponible & No disponible \\
+\textbf{Comisión Florista} & \textbf{12\% Fijo (Retiene 88\%)} & 20\% a 30\% variable & 25\% a 35\% + pasarela \\
+\textbf{Facturación SAT} & \textbf{CFDI 4.0 Automático} & Portal externo & Terciarizada \\
+\hline
+\end{tabular}
+\end{table}
+
+## Tamaño de Mercado (TAM / SAM / SOM)
+
+### Oportunidad binacional masiva (\$2,950M USD)
+
+\begin{itemize}
+  \item \textbf{TAM (Mercado Total Disponible): \$2,950 Millones de USD}
+  \begin{itemize}
+    \item Mercado Floral Nacional en México: \$2,100M USD anuales.
+    \item Corredor de Remesas Emocionales EE.UU. $\rightarrow$ México: \$850M USD.
+  \end{itemize}
+  \vspace{2mm}
+  \item \textbf{SAM (Mercado Atendible): \$420 Millones de USD}
+  \begin{itemize}
+    \item Entregas on-demand y e-commerce floral urbano (CDMX, Guadalajara, Monterrey).
+  \end{itemize}
+  \vspace{2mm}
+  \item \textbf{SOM (Objetivo a 18 Meses): \$18.5 Millones de USD}
+  \begin{itemize}
+    \item 4.4\% de cuota del mercado digital premium en México.
+  \end{itemize}
+\end{itemize}
+
+## Modelo de Negocio & Unit Economics
+
+### Take-Rate del 23.8\% y 5.9x LTV/CAC
+
+\begin{columns}
+\begin{column}{0.55\textwidth}
+\textbf{Ticket Promedio (AOV: \$1,068 MXN):}
+\begin{itemize}
+  \item Arreglo Floral (\$850 MXN): \$153 margen (18\%)
+  \item Tarifa Servicio (\$39 MXN): \$39 margen (100\%)
+  \item Envío Dinámico (\$90 MXN): \$18 margen (20\%)
+  \item Add-on Dedicatoria (\$89 MXN): \$44.50 margen (50\%)
+  \item \textbf{Margen Bruto Total:} \textbf{\$254.50 MXN (23.8\%)}
+\end{itemize}
+\end{column}
+
+\begin{column}{0.45\textwidth}
+\begin{tcolorbox}[colback=white,colframe=primarydeep,arc=2mm,title=\textbf{Métricas Clave}]
+\begin{itemize}
+  \item \textbf{CAC:} \$120 MXN (\$6.70 USD)
+  \item \textbf{LTV (12m):} \$2,880 MXN
+  \item \textbf{Ratio LTV/CAC:} \textbf{5.9x}
+  \item \textbf{Payback Period:} 1ra orden
+\end{itemize}
+\end{tcolorbox}
+\end{column}
+\end{columns}
+
+## Proyección Operativa y Financiera (Q1)
+
+### Crecimiento acelerado a 90 días
+
+\begin{table}
+\small
+\centering
+\begin{tabular}{lcccc}
+\hline
+\textbf{Indicador} & \textbf{Mes 1 (CDMX)} & \textbf{Mes 2 (+USA)} & \textbf{Mes 3 (+MTY/GDL)} & \textbf{Total Q1} \\
+\hline
+Floristerías & 18 & 45 & 110 & \textbf{110} \\
+Repartidores & 25 & 65 & 160 & \textbf{160} \\
+\textbf{Pedidos} & \textbf{520} & \textbf{1,850} & \textbf{4,600} & \textbf{6,970} \\
+GMV Total & \$30.8K USD & \$109.7K USD & \$272.9K USD & \textbf{\$433.5K USD} \\
+Ingresos Netos & \$7.3K USD & \$26.1K USD & \$64.9K USD & \textbf{\$98.4K USD} \\
+\textbf{EBITDA} & \textbf{+\$1.2K USD} & \textbf{+\$11.0K USD} & \textbf{+\$35.0K USD} & \textbf{+\$47.3K USD} \\
+\hline
+\end{tabular}
+\end{table}
+
+## Retorno de Inversión (ROI)
+
+### Recuperación rápida de liquidez + apreciación de capital
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{tcolorbox}[colback=champagne,colframe=primaryvelvet,arc=2mm,title=\textbf{Retorno de Liquidez (Q1)}]
+{\Large\bfseries\color{primaryvelvet} +94.6\% ROI} \\[2mm]
+\small
+El flujo neto acumulado (\$47,316 USD) amortiza prácticamente la totalidad del capital semilla (\$50,000 USD) en 90 días. \textbf{Break-even en Mes 2.}
+\end{tcolorbox}
+\end{column}
+
+\begin{column}{0.5\textwidth}
+\begin{tcolorbox}[colback=champagne,colframe=primaryrose,arc=2mm,title=\textbf{Valoración de Empresa}]
+{\Large\bfseries\color{primaryrose} +316\% ROI} \\[2mm]
+\small
+Valuación Post-Q1 a múltiplo conservador de 1.2x GMV anualizado:
+$$\text{Valuación} = \$433,553 \times 4 \times 1.2 = \mathbf{\$2.08M\text{ USD}}$$
+\end{tcolorbox}
+\end{column}
+\end{columns}
+
+## Ronda Semilla y Uso de Fondos
+
+### \$50,000 USD bajo instrumento SAFE
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\textbf{Términos de Inversión:}
+\begin{itemize}
+  \item \textbf{Monto:} \$50,000 USD (opción \$100K)
+  \item \textbf{Instrumento:} SAFE (Y Combinator)
+  \item \textbf{Valuation Cap:} \$1,200,000 USD
+  \item \textbf{Descuento:} 20\% entrada temprana
+\end{itemize}
+\end{column}
+
+\begin{column}{0.5\textwidth}
+\textbf{Distribución del Capital:}
+\begin{itemize}
+  \item \textbf{40\% (\$20,000):} Growth Marketing
+  \item \textbf{30\% (\$15,000):} Cloud \& Telemetría
+  \item \textbf{20\% (\$10,000):} Afiliación Floristas
+  \item \textbf{10\% (\$5,000):} Legal \& Contingencias
+\end{itemize}
+\end{column}
+\end{columns}
+
+## ¿Por Qué Invertir Hoy?
+
+\begin{tcolorbox}[colback=primaryvelvet,colframe=primaryrose,arc=3mm,title=\color{white}\textbf{Conclusiones de Inversión}]
+\color{white}
+\begin{enumerate}
+  \item \textbf{Tecnología 100\% Construida:} Monorepo Next.js 15, Flutter iOS/Android y Supabase PostGIS funcionando.
+  \item \textbf{Tracción Inmediata:} Corredor binacional Estados Unidos $\rightarrow$ México sin competencia directa en tracking GPS.
+  \item \textbf{Flujo Positivo:} Operación rentable desde el Mes 2 y LTV/CAC de 5.9x.
+\end{enumerate}
+\vspace{2mm}
+\centering \textbf{Contacto: investors@amarfe.com $\cdot$ https://amarfe.com}
+\end{tcolorbox}

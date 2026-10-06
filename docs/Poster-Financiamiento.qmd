@@ -1,0 +1,227 @@
+---
+title: "AMar Fe / ToLove Faith — Executive Investor Poster"
+format:
+  html:
+    embed-resources: true
+    smooth-scroll: true
+    css: poster.css
+---
+
+::: {.poster-container}
+
+<header class="poster-header">
+  <div class="brand-group">
+    <div class="logo-icon">🌹</div>
+    <div>
+      <h1 class="brand-title">AMar Fe <span class="brand-sub">/ ToLove Faith</span></h1>
+      <p class="brand-tagline">The Uber for Flowers, Heartfelt Notes & Realtime Delivery (US-MX)</p>
+    </div>
+  </div>
+
+  <div class="header-badges">
+    <div class="badge safe">💼 Ronda Semilla: $50,000 USD (SAFE Cap $1.2M)</div>
+    <div class="badge roi">⚡ ROI Q1: +94.6% Flujo / Break-even Mes 2</div>
+    <div class="badge market">🌎 TAM: $2,950M USD</div>
+  </div>
+</header>
+
+<div class="poster-grid">
+
+  <!-- COLUMNA 1: PROBLEMA, SOLUCIÓN Y MERCADO -->
+  <div class="poster-col">
+    <section class="poster-card">
+      <h2 class="card-title">1. El Problema</h2>
+      <div class="callout-box">
+        <p><strong>El 72% del mercado floral en México es informal</strong> sin certeza de frescura, horarios garantizados ni telemetría.</p>
+        <p><strong>Barrera binacional:</strong> 38 millones de hispanos en EE.UU. desean enviar flores a sus seres queridos pero sufren altos costos y fricción bancaria.</p>
+      </div>
+    </section>
+
+    <section class="poster-card">
+      <h2 class="card-title">2. Propuesta de Valor</h2>
+      <div class="feature-item">
+        <span class="feat-icon">⚡</span>
+        <div>
+          <h4>Entrega Exprés 60-90 Min</h4>
+          <p>Conexión directa con talleres florales locales certificados.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feat-icon">💌</span>
+        <div>
+          <h4>Dedicatoria Emocional</h4>
+          <p>Sobre interactivo de lujo con opción de remitente anónimo.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feat-icon">🛰️</span>
+        <div>
+          <h4>Telemetría GPS en Vivo</h4>
+          <p>Seguimiento satelital minuto a minuto para remitente y destinatario.</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feat-icon">📸</span>
+        <div>
+          <h4>Prueba Fotográfica</h4>
+          <p>Verificación visual de ramo y entrega en Supabase Storage.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="poster-card highlight-card">
+      <h2 class="card-title">3. Tamaño de Mercado (TAM)</h2>
+      <div class="kpi-mini-grid">
+        <div class="kpi-box">
+          <div class="kpi-num">$2,100M</div>
+          <div class="kpi-txt">TAM México Anual</div>
+        </div>
+        <div class="kpi-box">
+          <div class="kpi-num">$850M</div>
+          <div class="kpi-txt">Regalos Remesas EE.UU.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- COLUMNA 2: UNIT ECONOMICS & TECNOLOGÍA -->
+  <div class="poster-col">
+    <section class="poster-card">
+      <h2 class="card-title">4. Modelo de Negocio (Take-Rate 23.8%)</h2>
+      <p class="section-desc">Ticket Promedio (AOV) de $1,068 MXN (~$59 USD):</p>
+      
+      <table class="poster-table">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+            <th>Monto</th>
+            <th>Margen Plataforma</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Arreglo Floral</td>
+            <td>$850 MXN</td>
+            <td>$153.00 (18%)</td>
+          </tr>
+          <tr>
+            <td>Tarifa de Servicio</td>
+            <td>$39 MXN</td>
+            <td>$39.00 (100%)</td>
+          </tr>
+          <tr>
+            <td>Envío Dinámico</td>
+            <td>$90 MXN</td>
+            <td>$18.00 (20%)</td>
+          </tr>
+          <tr>
+            <td>Add-on Dedicatoria</td>
+            <td>$89 MXN</td>
+            <td>$44.50 (50%)</td>
+          </tr>
+          <tr class="table-total">
+            <td>Ingreso Neto por Orden</td>
+            <td>$1,068 MXN</td>
+            <td>$254.50 MXN (23.8%)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="metrics-row">
+        <div class="metric-pill">
+          <span class="mp-num">5.9x</span>
+          <span class="mp-lbl">LTV/CAC</span>
+        </div>
+        <div class="metric-pill">
+          <span class="mp-num">$120 MXN</span>
+          <span class="mp-lbl">CAC Target</span>
+        </div>
+        <div class="metric-pill">
+          <span class="mp-num">1ra Orden</span>
+          <span class="mp-lbl">Payback</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="poster-card">
+      <h2 class="card-title">5. Arquitectura Tecnológica</h2>
+      <div class="tech-stack-boxes">
+        <div class="tech-badge">Next.js 15 (SSR Web)</div>
+        <div class="tech-badge">Flutter iOS & Android</div>
+        <div class="tech-badge">Supabase PostGIS</div>
+        <div class="tech-badge">WebSockets Realtime</div>
+        <div class="tech-badge">Stripe & MercadoPago</div>
+        <div class="tech-badge">Storage S3 Compatible</div>
+      </div>
+      <p class="tech-note">Infraestructura serverless con geocercas espaciales para asignación algorítmica de pedidos en menos de 2 segundos.</p>
+    </section>
+  </div>
+
+  <!-- COLUMNA 3: PROYECCIONES, RONDA & CONTACTO -->
+  <div class="poster-col">
+    <section class="poster-card">
+      <h2 class="card-title">6. Proyección Financiera (Q1)</h2>
+      <table class="poster-table compact">
+        <thead>
+          <tr>
+            <th>Métrica</th>
+            <th>Mes 1</th>
+            <th>Mes 2</th>
+            <th>Mes 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Floristerías</td>
+            <td>18</td>
+            <td>45</td>
+            <td>110</td>
+          </tr>
+          <tr>
+            <td>Pedidos/mes</td>
+            <td>520</td>
+            <td>1,850</td>
+            <td>4,600</td>
+          </tr>
+          <tr>
+            <td>GMV Transaccionado</td>
+            <td>$30.8K</td>
+            <td>$109.7K</td>
+            <td>$272.9K</td>
+          </tr>
+          <tr class="table-highlight">
+            <td>EBITDA / Utilidad</td>
+            <td>+$1.2K</td>
+            <td>+$11.0K</td>
+            <td>+$35.0K</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="roi-summary-box">
+        <div class="roi-big-num">+94.6% ROI</div>
+        <div class="roi-sub-txt">$47,316 USD generados en flujo neto en solo 90 días</div>
+      </div>
+    </section>
+
+    <section class="poster-card gold-border">
+      <h2 class="card-title">7. La Ronda SAFE</h2>
+      <ul class="bullet-list">
+        <li><strong>Monto:</strong> $50,000 USD (opción a $100K USD)</li>
+        <li><strong>Valuation Cap:</strong> $1,200,000 USD</li>
+        <li><strong>Descuento Early Bird:</strong> 20%</li>
+        <li><strong>Uso de Fondos:</strong> 40% Growth Marketing, 30% Tech/Cloud, 20% Floristas, 10% Legal</li>
+      </ul>
+    </section>
+
+    <section class="poster-card contact-card">
+      <h2 class="card-title">Contáctanos</h2>
+      <p>Oportunidad abierta para inversores ángeles y fondos de etapa temprana.</p>
+      <div class="contact-email">investors@amarfe.com</div>
+      <div class="contact-web">https://amarfe.com</div>
+    </section>
+  </div>
+
+</div>
+
+:::

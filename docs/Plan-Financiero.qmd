@@ -1,0 +1,177 @@
+---
+title: "AMar Fe / ToLove Faith"
+subtitle: "Plan Financiero & Tesis de Inversión — Ronda Semilla (Q1)"
+author: "Equipo Fundador AMar Fe"
+date: "Septiembre 2026"
+date-format: "MMMM YYYY"
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    toc-title: "📑 Índice Ejecutivo"
+    number-sections: false
+    smooth-scroll: true
+    embed-resources: true
+    code-fold: true
+    mainfont: "Outfit, -apple-system, sans-serif"
+    monofont: "SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+    fontsize: 16px
+    linestretch: 1.65
+    css:
+      - https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap
+  pdf:
+    toc: true
+    toc-depth: 3
+    toc-title: "Índice de Contenido"
+    number-sections: false
+    colorlinks: true
+    linkcolor: "primarydeep"
+    urlcolor: "primaryrose"
+    toccolor: "primarydeep"
+    papersize: letter
+    documentclass: scrartcl
+    geometry:
+      - top=25mm
+      - left=25mm
+      - right=25mm
+      - bottom=25mm
+    header-includes:
+      - \usepackage{xcolor}
+      - \definecolor{primaryrose}{HTML}{E6396F}
+      - \definecolor{primarydeep}{HTML}{9D174D}
+      - \definecolor{primaryvelvet}{HTML}{700B34}
+      - \definecolor{rosegold}{HTML}{E5989B}
+      - \definecolor{champagne}{HTML}{FDF6EE}
+      - \definecolor{darkbox}{HTML}{1A0B14}
+      - \definecolor{lightgraybg}{HTML}{F9FAFB}
+      - \definecolor{tableheader}{HTML}{831843}
+      - \usepackage{tcolorbox}
+      - \tcbuselibrary{skins,breakable,raster}
+      - \usepackage{sectsty}
+      - \allsectionsfont{\color{primarydeep}\bfseries}
+      - \subsectionfont{\color{primaryrose}\bfseries}
+      - \subsubsectionfont{\color{primaryvelvet}\bfseries}
+      - \usepackage{fvextra}
+      - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+      - \usepackage{fancyhdr}
+      - \pagestyle{fancy}
+      - \fancyhf{}
+      - \fancyhead[L]{\small\color{gray}AMar Fe / ToLove Faith — Plan Financiero}
+      - \fancyhead[R]{\small\color{primaryrose}\textbf{Confidencial $\cdot$ Ronda Semilla}}
+      - \fancyfoot[L]{\small\color{gray}Documento de Inversión Q1}
+      - \fancyfoot[R]{\small\color{primarydeep}\textbf{Página \thepage}}
+      - \renewcommand{\headrulewidth}{0.8pt}
+      - \renewcommand{\headrule}{\hbox to\headwidth{\color{rosegold}\leaders\hrule height \headrulewidth\hfill}}
+      - \renewcommand{\footrulewidth}{0.4pt}
+      - \renewcommand{\footrule}{\hbox to\headwidth{\color{rosegold!50}\leaders\hrule height \footrulewidth\hfill}}
+      - \usepackage{colortbl}
+      - \usepackage{etoolbox}
+      - \renewenvironment{quote}{\begin{tcolorbox}[colback=champagne!70,colframe=primaryrose,leftrule=3.5mm,rightrule=0.5mm,toprule=0.5mm,bottomrule=0.5mm,arc=2mm,coltext=darkbox,boxsep=3pt,left=4mm,right=4mm,top=3mm,bottom=3mm]}{\end{tcolorbox}}
+---
+
+::: {.content-visible when-format="html"}
+```{=html}
+<div style="background: linear-gradient(135deg, #180B14 0%, #3B1225 50%, #1A0711 100%); padding: 42px 36px; border-radius: 24px; color: white; margin-bottom: 36px; box-shadow: 0 16px 48px rgba(157, 23, 77, 0.25); border: 1.5px solid rgba(244, 63, 94, 0.3); font-family: 'Outfit', sans-serif;">
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 24px;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <div style="width: 48px; height: 48px; border-radius: 14px; background: linear-gradient(135deg, #E6396F 0%, #9D174D 100%); display: flex; align-items: center; justify-content: center; font-size: 24px; box-shadow: 0 4px 16px rgba(230, 57, 111, 0.5);">
+        🌹
+      </div>
+      <div>
+        <div style="font-size: 24px; font-weight: 800; letter-spacing: -0.5px; line-height: 1.1; color: #FFF1F4;">
+          AMar Fe <span style="font-size: 14px; color: #FDA4AF; font-weight: 600; text-transform: uppercase;">/ ToLove Faith</span>
+        </div>
+        <div style="font-size: 12px; color: #E2CBD7; font-weight: 500;">
+          The Uber for Flowers, Heartfelt Notes & Realtime Delivery (US-MX)
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 8px;">
+      <span style="background: rgba(230, 57, 111, 0.25); border: 1px solid rgba(244, 63, 94, 0.4); color: #FDA4AF; padding: 6px 14px; border-radius: 9999px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">
+        💼 Ronda Semilla (SAFE)
+      </span>
+      <span style="background: rgba(52, 211, 153, 0.15); border: 1px solid rgba(52, 211, 153, 0.35); color: #6EE7B7; padding: 6px 14px; border-radius: 9999px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">
+        🔒 Confidencial
+      </span>
+    </div>
+  </div>
+
+  <h1 style="font-family: 'Playfair Display', Georgia, serif; font-size: 34px; font-weight: 700; margin: 0 0 12px 0; color: #FFFFFF; line-height: 1.2;">
+    Plan Financiero & Tesis de Inversión
+  </h1>
+  <p style="color: #E2CBD7; font-size: 16px; margin: 0 0 32px 0; max-width: 680px; line-height: 1.5;">
+    Estrategia de monetización, desglose de costos tecnológicos y retorno de inversión a 90 días para la expansión del primer marketplace floral con telemetría satelital en vivo.
+  </p>
+
+  <!-- Key Metrics Highlight Cards -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; padding-top: 24px; border-top: 1px solid rgba(255, 255, 255, 0.15);">
+    <div style="background: rgba(255, 255, 255, 0.06); padding: 16px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
+      <div style="font-size: 11px; text-transform: uppercase; color: #FDA4AF; font-weight: 700; letter-spacing: 0.5px;">Target Capital</div>
+      <div style="font-size: 24px; font-weight: 800; color: #FFFFFF; margin-top: 4px;">$50,000 USD</div>
+      <div style="font-size: 11px; color: #E2CBD7; margin-top: 2px;">Cap: $1.2M - $1.5M USD (SAFE)</div>
+    </div>
+    
+    <div style="background: rgba(255, 255, 255, 0.06); padding: 16px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
+      <div style="font-size: 11px; text-transform: uppercase; color: #34D399; font-weight: 700; letter-spacing: 0.5px;">Activo Construido</div>
+      <div style="font-size: 24px; font-weight: 800; color: #34D399; margin-top: 4px;">$90,200 USD</div>
+      <div style="font-size: 11px; color: #E2CBD7; margin-top: 2px;">12 meses / 1,500 hrs de equipo</div>
+    </div>
+
+    <div style="background: rgba(255, 255, 255, 0.06); padding: 16px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
+      <div style="font-size: 11px; text-transform: uppercase; color: #FBBF24; font-weight: 700; letter-spacing: 0.5px;">Unit Economics</div>
+      <div style="font-size: 24px; font-weight: 800; color: #FFFFFF; margin-top: 4px;">5.9x LTV/CAC</div>
+      <div style="font-size: 11px; color: #E2CBD7; margin-top: 2px;">Margen Bruto: 23.8%</div>
+    </div>
+
+    <div style="background: rgba(255, 255, 255, 0.06); padding: 16px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
+      <div style="font-size: 11px; text-transform: uppercase; color: #60A5FA; font-weight: 700; letter-spacing: 0.5px;">TAM Binacional</div>
+      <div style="font-size: 24px; font-weight: 800; color: #FFFFFF; margin-top: 4px;">$2,950M USD</div>
+      <div style="font-size: 11px; color: #E2CBD7; margin-top: 2px;">México + Remesas Emocionales</div>
+    </div>
+  </div>
+</div>
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+\begin{tcolorbox}[colback=darkbox,colframe=primaryrose,arc=4mm,boxrule=1.5pt,coltext=white,left=6mm,right=6mm,top=6mm,bottom=6mm]
+{\Huge\bfseries\color{white} AMar Fe \color{rosegold}/ ToLove Faith} \\[2mm]
+{\large\color{rosegold} The Uber for Flowers, Heartfelt Notes \& Realtime Delivery (US-MX)} \\[3mm]
+{\small\color{champagne} \textbf{Ronda Semilla (SAFE: Cap \$1.2M - \$1.5M USD) $\cdot$ Documento Confidencial para Inversionistas}} \\[4mm]
+\noindent\rule{\textwidth}{0.8pt} \\[3mm]
+
+\begin{tcbraster}[raster columns=2, raster equal height=rows, raster column skip=3mm, raster row skip=3mm]
+  \begin{tcolorbox}[colback=primaryvelvet!70!darkbox,colframe=primaryrose!60,arc=2mm,boxrule=0.8pt,coltext=white,top=2.5mm,bottom=2.5mm,left=3mm,right=3mm]
+    {\scriptsize\bfseries\color{rosegold} TARGET CAPITAL (SAFE)}\\
+    {\Large\bfseries\color{white} \$50,000 USD}\\
+    {\tiny\color{champagne!80} Cap: \$1.2M - \$1.5M USD / 20\% Desc.}
+  \end{tcolorbox}
+  \begin{tcolorbox}[colback=primaryvelvet!70!darkbox,colframe=primaryrose!60,arc=2mm,boxrule=0.8pt,coltext=white,top=2.5mm,bottom=2.5mm,left=3mm,right=3mm]
+    {\scriptsize\bfseries\color{rosegold} ACTIVO TECNOLÓGICO CONSTRUIDO}\\
+    {\Large\bfseries\color{white} \$90,200 USD}\\
+    {\tiny\color{champagne!80} 12 meses / 1,500 hrs equipo (0\% deuda técnica)}
+  \end{tcolorbox}
+  \begin{tcolorbox}[colback=primaryvelvet!70!darkbox,colframe=primaryrose!60,arc=2mm,boxrule=0.8pt,coltext=white,top=2.5mm,bottom=2.5mm,left=3mm,right=3mm]
+    {\scriptsize\bfseries\color{rosegold} UNIT ECONOMICS}\\
+    {\Large\bfseries\color{white} 5.9x LTV/CAC}\\
+    {\tiny\color{champagne!80} Margen Bruto: 23.8\% $\cdot$ AOV: \$1,068 MXN}
+  \end{tcolorbox}
+  \begin{tcolorbox}[colback=primaryvelvet!70!darkbox,colframe=primaryrose!60,arc=2mm,boxrule=0.8pt,coltext=white,top=2.5mm,bottom=2.5mm,left=3mm,right=3mm]
+    {\scriptsize\bfseries\color{rosegold} TAM MERCADO DISPONIBLE}\\
+    {\Large\bfseries\color{white} \$2,950M USD}\\
+    {\tiny\color{champagne!80} México + Corredor Remesas EE.UU.}
+  \end{tcolorbox}
+\end{tcbraster}
+\end{tcolorbox}
+\vspace{4mm}
+:::
+
+::: {.callout-note appearance="simple" icon=false}
+### 💎 Aviso de Confidencialidad & Propiedad Intelectual
+Este documento contiene proyecciones financieras, análisis de unit economics y estrategias propietarias de **AMar Fe / ToLove Faith**. Prohibida su distribución o reproducción sin consentimiento previo.
+:::
+
+{{< include plan-financiero.md >}}
