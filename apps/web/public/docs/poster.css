@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap');
+
+body {
+  margin: 0;
+  padding: 24px;
+  background-color: #0A0307;
+  font-family: 'Outfit', -apple-system, sans-serif;
+  color: #F8EDEB;
+}
+
+.poster-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: radial-gradient(circle at 50% 0%, #2A091B 0%, #12050D 60%, #080206 100%);
+  border: 2px solid rgba(230, 57, 111, 0.4);
+  border-radius: 24px;
+  padding: 36px 40px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(230, 57, 111, 0.15);
+}
+
+.poster-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-bottom: 2px solid rgba(230, 57, 111, 0.3);
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+}
+
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #E6396F 0%, #9D174D 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  box-shadow: 0 8px 24px rgba(230, 57, 111, 0.5);
+}
+
+.brand-title {
+  margin: 0;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.5rem;
+  color: #FFF1F4;
+  line-height: 1.1;
+}
+
+.brand-sub {
+  font-size: 1.3rem;
+  color: #FDA4AF;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+.brand-tagline {
+  margin: 4px 0 0 0;
+  font-size: 1rem;
+  color: #E2CBD7;
+}
+
+.header-badges {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.badge.safe {
+  background: rgba(230, 57, 111, 0.2);
+  border: 1px solid rgba(244, 63, 94, 0.5);
+  color: #FDA4AF;
+}
+
+.badge.roi {
+  background: rgba(52, 211, 153, 0.15);
+  border: 1px solid rgba(52, 211, 153, 0.4);
+  color: #6EE7B7;
+}
+
+.badge.market {
+  background: rgba(96, 165, 250, 0.15);
+  border: 1px solid rgba(96, 165, 250, 0.4);
+  color: #93C5FD;
+}
+
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.poster-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.poster-card {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  margin: 0 0 14px 0;
+  font-size: 1.25rem;
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #FDA4AF;
+  border-bottom: 1.5px solid rgba(230, 57, 111, 0.25);
+  padding-bottom: 6px;
+}
+
+.callout-box {
+  background: rgba(230, 57, 111, 0.08);
+  border-left: 3px solid #E6396F;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.feature-item:last-child {
+  margin-bottom: 0;
+}
+
+.feat-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.feature-item h4 {
+  margin: 0 0 2px 0;
+  font-size: 1rem;
+  color: #FFF;
+}
+
+.feature-item p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #D1B8C5;
+  line-height: 1.4;
+}
+
+.kpi-mini-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.kpi-box {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(230, 57, 111, 0.3);
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+}
+
+.kpi-num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.kpi-txt {
+  font-size: 0.75rem;
+  color: #FDA4AF;
+  text-transform: uppercase;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.poster-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+
+.poster-table th {
+  background: rgba(230, 57, 111, 0.2);
+  color: #FDA4AF;
+  padding: 8px;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.poster-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.table-total {
+  background: rgba(230, 57, 111, 0.15);
+  font-weight: 700;
+  color: #FFF;
+}
+
+.table-highlight {
+  background: rgba(52, 211, 153, 0.15);
+  color: #6EE7B7;
+  font-weight: 700;
+}
+
+.metrics-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.metric-pill {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+}
+
+.mp-num {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #FFF;
+}
+
+.mp-lbl {
+  font-size: 0.7rem;
+  color: #E2CBD7;
+}
+
+.tech-stack-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.tech-badge {
+  background: rgba(157, 23, 77, 0.25);
+  border: 1px solid rgba(230, 57, 111, 0.4);
+  color: #FDA4AF;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.tech-note {
+  font-size: 0.8rem;
+  color: #D1B8C5;
+  margin-top: 12px;
+  line-height: 1.4;
+}
+
+.roi-summary-box {
+  background: linear-gradient(135deg, rgba(52, 211, 153, 0.15) 0%, rgba(16, 185, 129, 0.05) 100%);
+  border: 1.5px solid #34D399;
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.roi-big-num {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #34D399;
+}
+
+.roi-sub-txt {
+  font-size: 0.8rem;
+  color: #E2CBD7;
+  margin-top: 2px;
+}
+
+.gold-border {
+  border-color: rgba(251, 191, 36, 0.4);
+  background: rgba(251, 191, 36, 0.04);
+}
+
+.gold-border .card-title {
+  color: #FBBF24;
+  border-bottom-color: rgba(251, 191, 36, 0.3);
+}
+
+.bullet-list {
+  padding-left: 20px;
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.contact-card {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(230, 57, 111, 0.15) 0%, rgba(157, 23, 77, 0.25) 100%);
+}
+
+.contact-email {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-top: 8px;
+}
+
+.contact-web {
+  font-size: 0.85rem;
+  color: #FDA4AF;
+  margin-top: 4px;
+}
+
+@media (max-width: 1024px) {
+  .poster-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  body {
+    padding: 0;
+    background: #0A0307 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .poster-container {
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}

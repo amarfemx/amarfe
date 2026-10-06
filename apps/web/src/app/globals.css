@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap');
+
+:root {
+  /* Color Tokens - Romantic Luxury Palette (Light) */
+  --primary-rose: #E6396F;
+  --primary-deep: #9D174D;
+  --primary-velvet: #700B34;
+  --rose-gold: #E5989B;
+  --champagne: #FDF6EE;
+  --champagne-dark: #F7E1D7;
+  --emerald-leaf: #2D6A4F;
+  --gold-accent: #D4A373;
+  
+  --bg-gradient: linear-gradient(135deg, #FFF5F7 0%, #FFFFFF 50%, #FFF0F5 100%);
+  --header-bg: rgba(255, 255, 255, 0.92);
+  --bg-dark: #120A0F;
+  --card-bg: rgba(255, 255, 255, 0.85);
+  --card-border: rgba(230, 57, 111, 0.15);
+  --text-primary: #2B1822;
+  --text-secondary: #6B5B65;
+  --text-muted: #9E8E98;
+  --input-bg: #FFFFFF;
+  --input-border: #E5E7EB;
+  
+  --shadow-sm: 0 2px 8px rgba(157, 23, 77, 0.05);
+  --shadow-md: 0 8px 24px rgba(157, 23, 77, 0.08);
+  --shadow-lg: 0 16px 40px rgba(157, 23, 77, 0.12);
+  --shadow-glow: 0 0 25px rgba(230, 57, 111, 0.25);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+[data-theme='dark'] {
+  /* Color Tokens - Velvet Noir Palette (Dark) */
+  --primary-rose: #FB7185;
+  --primary-deep: #F43F5E;
+  --primary-velvet: #9F1239;
+  --rose-gold: #FDA4AF;
+  --champagne: #1F131A;
+  --champagne-dark: #2D1B26;
+  --emerald-leaf: #34D399;
+  --gold-accent: #FBBF24;
+  
+  --bg-gradient: linear-gradient(135deg, #0F070C 0%, #1A0D15 50%, #140810 100%);
+  --header-bg: rgba(20, 10, 17, 0.88);
+  --bg-dark: #0A0408;
+  --card-bg: rgba(30, 16, 26, 0.75);
+  --card-border: rgba(244, 63, 94, 0.22);
+  --text-primary: #FFF1F4;
+  --text-secondary: #E2CBD7;
+  --text-muted: #A38A99;
+  --input-bg: #23121E;
+  --input-border: rgba(244, 63, 94, 0.25);
+  
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.75);
+  --shadow-glow: 0 0 30px rgba(244, 63, 94, 0.35);
+}
+
+/* ========================================================
+   PALETTE VARIATIONS: Lavender, Emerald, Gold, Ocean
+   ======================================================== */
+
+/* --- 1. LAVENDER & AMETHYST (Light) --- */
+[data-palette='lavender'] {
+  --primary-rose: #8B5CF6;
+  --primary-deep: #6D28D9;
+  --primary-velvet: #4C1D95;
+  --rose-gold: #C4B5FD;
+  --champagne: #F5F3FF;
+  --bg-gradient: linear-gradient(135deg, #F5F3FF 0%, #FFFFFF 50%, #EDE9FE 100%);
+  --card-border: rgba(139, 92, 246, 0.18);
+  --text-primary: #1E1233;
+}
+/* Lavender (Dark) */
+[data-palette='lavender'][data-theme='dark'] {
+  --primary-rose: #A78BFA;
+  --primary-deep: #8B5CF6;
+  --primary-velvet: #7C3AED;
+  --rose-gold: #DDD6FE;
+  --champagne: #170E28;
+  --bg-gradient: linear-gradient(135deg, #0B0714 0%, #170E2A 50%, #10091D 100%);
+  --header-bg: rgba(15, 9, 26, 0.88);
+  --card-bg: rgba(26, 16, 46, 0.75);
+  --card-border: rgba(167, 139, 250, 0.25);
+  --text-primary: #F5F3FF;
+  --text-secondary: #DDD6FE;
+}
+
+/* --- 2. EMERALD BOTANICAL (Light) --- */
+[data-palette='emerald'] {
+  --primary-rose: #059669;
+  --primary-deep: #047857;
+  --primary-velvet: #064E3B;
+  --rose-gold: #6EE7B7;
+  --champagne: #ECFDF5;
+  --bg-gradient: linear-gradient(135deg, #ECFDF5 0%, #FFFFFF 50%, #D1FAE5 100%);
+  --card-border: rgba(5, 150, 105, 0.18);
+  --text-primary: #062419;
+}
+/* Emerald (Dark) */
+[data-palette='emerald'][data-theme='dark'] {
+  --primary-rose: #34D399;
+  --primary-deep: #10B981;
+  --primary-velvet: #059669;
+  --rose-gold: #A7F3D0;
+  --champagne: #0B2418;
+  --bg-gradient: linear-gradient(135deg, #04120B 0%, #0A261A 50%, #061A12 100%);
+  --header-bg: rgba(6, 20, 14, 0.88);
+  --card-bg: rgba(10, 36, 26, 0.75);
+  --card-border: rgba(52, 211, 153, 0.25);
+  --text-primary: #ECFDF5;
+  --text-secondary: #D1FAE5;
+}
+
+/* --- 3. ROYAL CHAMPAGNE & GOLD (Light) --- */
+[data-palette='gold'] {
+  --primary-rose: #D97706;
+  --primary-deep: #B45309;
+  --primary-velvet: #78350F;
+  --rose-gold: #FCD34D;
+  --champagne: #FFFBEB;
+  --bg-gradient: linear-gradient(135deg, #FFFBEB 0%, #FFFFFF 50%, #FEF3C7 100%);
+  --card-border: rgba(217, 119, 6, 0.18);
+  --text-primary: #291804;
+}
+/* Gold (Dark) */
+[data-palette='gold'][data-theme='dark'] {
+  --primary-rose: #FBBF24;
+  --primary-deep: #F59E0B;
+  --primary-velvet: #D97706;
+  --rose-gold: #FDE68A;
+  --champagne: #261A08;
+  --bg-gradient: linear-gradient(135deg, #120B02 0%, #261A0A 50%, #1A1206 100%);
+  --header-bg: rgba(20, 13, 4, 0.88);
+  --card-bg: rgba(38, 26, 10, 0.75);
+  --card-border: rgba(251, 191, 36, 0.25);
+  --text-primary: #FFFBEB;
+  --text-secondary: #FEF3C7;
+}
+
+/* --- 4. SAPPHIRE & OCEAN (Light) --- */
+[data-palette='ocean'] {
+  --primary-rose: #0284C7;
+  --primary-deep: #0369A1;
+  --primary-velvet: #075985;
+  --rose-gold: #7DD3FC;
+  --champagne: #F0F9FF;
+  --bg-gradient: linear-gradient(135deg, #F0F9FF 0%, #FFFFFF 50%, #E0F2FE 100%);
+  --card-border: rgba(2, 132, 199, 0.18);
+  --text-primary: #082132;
+}
+/* Ocean (Dark) */
+[data-palette='ocean'][data-theme='dark'] {
+  --primary-rose: #38BDF8;
+  --primary-deep: #0EA5E9;
+  --primary-velvet: #0284C7;
+  --rose-gold: #BAE6FD;
+  --champagne: #0B2233;
+  --bg-gradient: linear-gradient(135deg, #030E17 0%, #0A1E2B 50%, #06151E 100%);
+  --header-bg: rgba(5, 18, 28, 0.88);
+  --card-bg: rgba(10, 30, 43, 0.75);
+  --card-border: rgba(56, 189, 248, 0.25);
+  --text-primary: #F0F9FF;
+  --text-secondary: #E0F2FE;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-gradient);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, .serif-text {
+  font-family: var(--font-serif);
+}
+
+/* Glassmorphism Cards */
+.glass-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(230, 57, 111, 0.3);
+}
+
+/* Luxury Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-rose) 0%, var(--primary-deep) 100%);
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 14px rgba(230, 57, 111, 0.35);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(230, 57, 111, 0.45);
+}
+
+.btn-secondary {
+  background: white;
+  color: var(--primary-deep);
+  border: 1.5px solid var(--primary-rose);
+  padding: 11px 24px;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background: #FFF5F7;
+  transform: translateY(-2px);
+}
+
+[data-theme='dark'] .btn-secondary {
+  background: var(--input-bg);
+  color: var(--text-primary);
+  border-color: var(--card-border);
+}
+
+[data-theme='dark'] .btn-secondary:hover {
+  background: rgba(244, 63, 94, 0.18);
+  border-color: var(--primary-rose);
+  color: #FFF1F4;
+}
+
+/* Badges & Pills */
+.pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 600;
+  background: rgba(230, 57, 111, 0.08);
+  color: var(--primary-deep);
+  border: 1px solid rgba(230, 57, 111, 0.15);
+}
+
+.pill-badge.active {
+  background: var(--primary-rose);
+  color: white;
+  border-color: var(--primary-rose);
+}
+
+/* Animations */
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+
+.pulse-badge {
+  animation: pulseSubtle 3s infinite ease-in-out;
+}
