@@ -1,0 +1,248 @@
+---
+title: "AMar Fe / ToLove Faith"
+subtitle: "Propuesta de Licenciamiento Tecnológico & Franquicia Digital (SaaS)"
+author: "Equipo Desarrollador AMar Fe"
+date: "Septiembre 2026"
+format:
+  revealjs:
+    theme: default
+    transition: slide
+    slide-number: true
+    controls: true
+    progress: true
+    center: false
+    embed-resources: true
+    width: 1280
+    height: 720
+    css: presentacion.css
+---
+
+## 🌹 AMar Fe / ToLove Faith
+
+### Plataforma de última milla floral y dedicatorias bajo modelo SaaS
+
+```{=html}
+<div class="subtitle-tag">
+  Licenciamiento B2B & Franquicia Digital · Despliegue en 14 Días · Retorno en &lt; 60 Días
+</div>
+
+<div class="grid-4">
+  <div class="kpi-card highlight">
+    <div class="kpi-label">Ahorro de Desarrollo</div>
+    <div class="kpi-value">+$90K</div>
+    <div class="kpi-sub">USD en R&D y Equipo</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">Tiempo Ahorrado</div>
+    <div class="kpi-value">12 Meses</div>
+    <div class="kpi-sub">1,500 hrs de ingeniería</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">Puesta en Marcha</div>
+    <div class="kpi-value">14 Días</div>
+    <div class="kpi-sub">Onboarding y Pasarelas</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">Modalidad</div>
+    <div class="kpi-value">SaaS B2B</div>
+    <div class="kpi-sub">Marca Blanca Disponible</div>
+  </div>
+</div>
+```
+
+---
+
+## ¿Qué Incluye la Licencia Tecnológica?
+
+### Tres componentes integrados de nivel de producción
+
+```{=html}
+<div class="grid-3">
+  <div class="solution-card">
+    <div class="icon">🌐</div>
+    <h4>Web App Next.js 15 SSR</h4>
+    <p>Catálogo de lujo, selector de temas Claro/Oscuro, Checkout con dedicatorias y Kitchen Display System (KDS) con alertas sonoras en vivo.</p>
+  </div>
+  <div class="solution-card">
+    <div class="icon">📱</div>
+    <h4>Apps Móviles Flutter</h4>
+    <p>App para clientes y App para repartidores con telemetría satelital continua en segundo plano y WebSockets Supabase Realtime.</p>
+  </div>
+  <div class="solution-card">
+    <div class="icon">⚡</div>
+    <h4>Backend Supabase PostGIS</h4>
+    <p>PostgreSQL geoespacial, autenticación PKCE con triggers automáticos, Storage Buckets configurados y seguridad RLS integral.</p>
+  </div>
+</div>
+```
+
+## Ventajas Competitivas vs. Alternativas
+
+### ¿Por qué elegir la tecnología AMar Fe?
+
+```{=html}
+<div style="margin-top: 12px;">
+  <table class="deck-table" style="font-size: 0.72rem;">
+    <thead>
+      <tr>
+        <th>Capacidad</th>
+        <th>AMar Fe License</th>
+        <th>EnviaFlores</th>
+        <th>Delivery Apps (Rappi/Uber)</th>
+        <th>Shopify Genérico</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Despacho On-Demand</strong></td>
+        <td><strong style="color: #059669;">⚡ 60-90 min</strong></td>
+        <td>4-6 hrs (almacén central)</td>
+        <td>45-60 min (sin foco floral)</td>
+        <td>24-48 hrs paquetería</td>
+      </tr>
+      <tr>
+        <td><strong>Telemetría GPS Satelital</strong></td>
+        <td><strong style="color: #059669;">🛰️ En vivo (WebSockets)</strong></td>
+        <td>❌ No disponible</td>
+        <td>⚠️ Básica</td>
+        <td>❌ No disponible</td>
+      </tr>
+      <tr>
+        <td><strong>Kitchen Display System (KDS)</strong></td>
+        <td><strong style="color: #059669;">🔔 Alertas sonoras WebAudio</strong></td>
+        <td>❌ No disponible</td>
+        <td>❌ No disponible</td>
+        <td>❌ Plugins de terceros</td>
+      </tr>
+      <tr>
+        <td><strong>Facturación SAT CFDI 4.0</strong></td>
+        <td><strong style="color: #059669;">🏛️ Automática con PAC</strong></td>
+        <td>Manual / Portal externo</td>
+        <td>Terciarizada</td>
+        <td>Requiere integración extra</td>
+      </tr>
+      <tr>
+        <td><strong>Propiedad de la Red</strong></td>
+        <td><strong style="color: #059669;">💎 Marca Blanca / Franquicia</strong></td>
+        <td>Red cerrada propietaria</td>
+        <td>Agregador (30% comisión)</td>
+        <td>Tienda básica aislada</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+```
+
+## Planes de Licenciamiento y Franquicia
+
+### Modelos flexibles adaptados a tu escala operativa
+
+```{=html}
+<div class="grid-2">
+  <div class="roi-card">
+    <h3 style="color: #059669;">🏢 Plan A: Licencia SaaS para Floristerías</h3>
+    <div class="big-percent" style="font-size: 2.3rem;">$299 USD/mes</div>
+    <ul class="terms-list" style="margin-top: 12px;">
+      <li>Setup único: $2,500 USD por integración.</li>
+      <li>Comisión tecnológica: 3.5% por pedido procesado.</li>
+      <li>Acceso total a KDS con alertas sonoras y app de repartidor.</li>
+      <li>Alojamiento en la nube y soporte técnico incluido.</li>
+    </ul>
+  </div>
+
+  <div class="roi-card gold-border">
+    <h3 style="color: #D97706;">🌎 Plan B: Franquicia Territorial Exclusiva</h3>
+    <div class="big-percent" style="font-size: 2.3rem;">$25,000 USD/año</div>
+    <ul class="terms-list" style="margin-top: 12px;">
+      <li>Exclusividad total en una región metropolitana o estado.</li>
+      <li>Regalía tecnológica: 5% del GMV transaccionado.</li>
+      <li>Operación bajo Marca Blanca personalizada (White-Label).</li>
+      <li>Soporte de ingeniería dedicado y customizaciones locales.</li>
+    </ul>
+  </div>
+</div>
+```
+
+## Retorno de Inversión (ROI) para el Operador
+
+### Generación de flujo positivo desde los primeros 60 días
+
+```{=html}
+<div class="grid-2">
+  <div>
+    <h4 style="margin-bottom: 12px;">Proyección Operativa (2,000 pedidos/mes)</h4>
+    <table class="deck-table">
+      <thead>
+        <tr>
+          <th>Concepto</th>
+          <th>Monto Mensual</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>GMV Transaccionado (2,000 pedidos)</td>
+          <td>$118,600 USD ($2.1M MXN)</td>
+        </tr>
+        <tr>
+          <td>Margen Bruto del Operador (18.8%)</td>
+          <td>$22,300 USD ($401K MXN)</td>
+        </tr>
+        <tr>
+          <td>Costo Licencia Tecnológica (5%)</td>
+          <td>($5,930 USD)</td>
+        </tr>
+        <tr class="total-row">
+          <td><strong>Utilidad Neta para el Operador</strong></td>
+          <td><strong>+$16,370 USD / mes ($294K MXN)</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="unit-summary">
+    <div class="metric-pill golden">
+      <span class="num">&lt; 60 Días</span>
+      <span class="lbl">Payback de Setup / Franquicia</span>
+    </div>
+    <div class="metric-pill">
+      <span class="num">0% Costo R&D</span>
+      <span class="lbl">Sin riesgo de desarrollo técnico</span>
+    </div>
+    <div class="metric-pill">
+      <span class="num">SLA 99.9%</span>
+      <span class="lbl">Disponibilidad en Telemetría</span>
+    </div>
+    <div class="metric-pill">
+      <span class="num">Actualizaciones</span>
+      <span class="lbl">Mejoras de software incluidas</span>
+    </div>
+  </div>
+</div>
+```
+
+## Proceso de Onboarding & Contacto
+
+```{=html}
+<div class="grid-3">
+  <div class="why-card">
+    <div class="step-num">1</div>
+    <h4>Demo Privada</h4>
+    <p>Prueba en vivo del KDS, app móvil y telemetría en tiempo real.</p>
+  </div>
+  <div class="why-card">
+    <div class="step-num">2</div>
+    <h4>Acuerdo Comercial</h4>
+    <p>Selección del plan (SaaS o Franquicia Territorial) y firma de SLA.</p>
+  </div>
+  <div class="why-card">
+    <div class="step-num">3</div>
+    <h4>Lanzamiento en 14 Días</h4>
+    <p>Capacitación de floristas, conexión de pasarelas y salida a producción.</p>
+  </div>
+</div>
+
+<div class="contact-box" style="margin-top: 30px;">
+  <h3 style="margin: 0 0 6px 0; font-size: 1.3rem;">🌹 AMar Fe / ToLove Faith — Licenciamiento B2B</h3>
+  <p style="margin: 0; color: #700B34; font-weight: 600;">Contacto comercial & solicitudes de franquicia: <strong>licensing@amarfe.com</strong> · https://amarfe.com</p>
+</div>
+```

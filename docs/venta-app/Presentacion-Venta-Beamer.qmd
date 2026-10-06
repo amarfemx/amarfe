@@ -1,0 +1,149 @@
+---
+title: "AMar Fe / ToLove Faith"
+subtitle: "Propuesta de Licenciamiento Tecnológico & Franquicia Digital (SaaS)"
+author: "Equipo Desarrollador AMar Fe"
+date: "Septiembre 2026"
+format:
+  beamer:
+    theme: Madrid
+    colortheme: rose
+    fonttheme: structurebold
+    aspectratio: 169
+    toc: false
+    slide-level: 2
+    header-includes:
+      - \usepackage{xcolor}
+      - \definecolor{primaryrose}{HTML}{E6396F}
+      - \definecolor{primarydeep}{HTML}{831843}
+      - \definecolor{primaryvelvet}{HTML}{700B34}
+      - \definecolor{champagne}{HTML}{FDF6EE}
+      - \setbeamercolor{title}{fg=white,bg=primaryvelvet}
+      - \setbeamercolor{frametitle}{fg=white,bg=primarydeep}
+      - \setbeamercolor{structure}{fg=primarydeep}
+      - \setbeamercolor{palette primary}{fg=white,bg=primarydeep}
+      - \setbeamercolor{palette secondary}{fg=white,bg=primaryvelvet}
+      - \setbeamercolor{palette tertiary}{fg=white,bg=primaryrose}
+      - \setbeamercolor{palette quaternary}{fg=white,bg=primaryvelvet}
+      - \usepackage{tcolorbox}
+      - \tcbuselibrary{skins,breakable}
+---
+
+## 🌹 AMar Fe / ToLove Faith
+
+### Plataforma de última milla floral bajo modelo SaaS
+
+\begin{tcolorbox}[colback=champagne,colframe=primaryrose,arc=3mm,boxrule=1pt,title=\textbf{Highlights de la Propuesta de Licenciamiento}]
+\begin{itemize}
+  \item \textbf{Ahorro en R\&D:} +\$90,000 USD y 12 meses de desarrollo completados
+  \item \textbf{Despliegue Rápido:} En marcha en menos de 14 días con onboarding integral
+  \item \textbf{Modelo Rentable para el Operador:} Payback de setup/franquicia en $<$ 60 días
+  \item \textbf{Propiedad Intelectual:} 100\% de titularidad conservada por AMar Fe
+\end{itemize}
+\end{tcolorbox}
+
+---
+
+## Módulos Tecnológicos Incluidos
+
+\begin{columns}
+\begin{column}{0.33\textwidth}
+\begin{tcolorbox}[colback=white,colframe=primarydeep,arc=2mm,title=\textbf{1. Web App Next.js 15}]
+\small
+Catálogo SSR, checkout emocional, dedicatorias y Kitchen Display System (KDS) con alertas sonoras en vivo.
+\end{tcolorbox}
+\end{column}
+
+\begin{column}{0.33\textwidth}
+\begin{tcolorbox}[colback=white,colframe=primarydeep,arc=2mm,title=\textbf{2. Apps Flutter}]
+\small
+App para clientes y app para repartidores con telemetría satelital continua en segundo plano y WebSockets Realtime.
+\end{tcolorbox}
+\end{column}
+
+\begin{column}{0.33\textwidth}
+\begin{tcolorbox}[colback=white,colframe=primarydeep,arc=2mm,title=\textbf{3. Backend PostGIS}]
+\small
+PostgreSQL con extensiones geoespaciales PostGIS, autenticación PKCE, políticas de seguridad RLS y Storage.
+\end{tcolorbox}
+\end{column}
+\end{columns}
+
+## Ventajas Competitivas vs. Alternativas
+
+### ¿Por qué adoptar la tecnología AMar Fe?
+
+\begin{table}
+\scriptsize
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Capacidad} & \textbf{AMar Fe SaaS} & \textbf{EnviaFlores} & \textbf{Delivery Apps} \\
+\hline
+\textbf{Tiempo de Entrega} & \textbf{60 a 90 min On-Demand} & 4 a 6 horas & 45 a 60 min \\
+\textbf{Telemetría GPS} & \textbf{En vivo vía WebSockets} & No disponible & Ruta básica \\
+\textbf{Kitchen Display (KDS)} & \textbf{Integrado con WebAudio} & No disponible & No disponible \\
+\textbf{Facturación SAT} & \textbf{CFDI 4.0 Automático} & Portal diferido & Terciarizada \\
+\textbf{Modelo de Negocio} & \textbf{Marca Blanca / SaaS} & Red monopolio & Agregador 30\% com. \\
+\hline
+\end{tabular}
+\end{table}
+
+## Planes de Licenciamiento Comercial
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{tcolorbox}[colback=champagne,colframe=primaryvelvet,arc=2mm,title=\textbf{Plan A: Licencia SaaS Floristerías}]
+{\Large\bfseries\color{primaryvelvet} \$299 USD/mes} \\[2mm]
+\small
+\begin{itemize}
+  \item Setup único: \$2,500 USD por taller.
+  \item Comisión tecnológica: 3.5\% por pedido.
+  \item KDS con alertas sonoras + App repartidor.
+  \item Cloud hosting y soporte técnico 24/7.
+\end{itemize}
+\end{tcolorbox}
+\end{column}
+
+\begin{column}{0.5\textwidth}
+\begin{tcolorbox}[colback=champagne,colframe=primaryrose,arc=2mm,title=\textbf{Plan B: Franquicia Territorial}]
+{\Large\bfseries\color{primaryrose} \$25,000 USD/año} \\[2mm]
+\small
+\begin{itemize}
+  \item Exclusividad en región metropolitana o estado.
+  \item Regalía tecnológica: 5\% del GMV territorial.
+  \item Operación bajo Marca Blanca (White-Label).
+  \item Soporte de ingeniería prioritario.
+\end{itemize}
+\end{tcolorbox}
+\end{column}
+\end{columns}
+
+---
+
+## Retorno de Inversión (ROI) para el Operador
+
+### Modelo con 2,000 pedidos mensuales en un territorio
+
+\begin{itemize}
+  \item \textbf{GMV Mensual Operado:} \$118,600 USD (\$2,136,000 MXN)
+  \item \textbf{Margen Bruto del Operador (18.8\%):} \$22,300 USD/mes
+  \item \textbf{Costo de Licencia Tecnológica (5\%):} (\$5,930 USD)
+  \item \textbf{Utilidad Neta Mensual del Operador:} \textbf{+\$16,370 USD / mes (\$294,660 MXN)}
+\end{itemize}
+
+\vspace{3mm}
+\begin{tcolorbox}[colback=primaryvelvet,colframe=primaryrose,arc=2mm]
+\centering \color{white}\textbf{Recuperación de inversión inicial (Payback) en menos de 60 días.}
+\end{tcolorbox}
+
+## Proceso de Onboarding & Contacto
+
+\begin{tcolorbox}[colback=primaryvelvet,colframe=primaryrose,arc=3mm,title=\color{white}\textbf{Pasos para la Implementación}]
+\color{white}
+\begin{enumerate}
+  \item \textbf{Demostración Técnica:} Evaluación en vivo de la plataforma y KDS.
+  \item \textbf{Convenio de Licencia/Franquicia:} Firma de acuerdo SLA comercial.
+  \item \textbf{Puesta en Marcha en 14 Días:} Configuración de marca y pasarelas de pago.
+\end{enumerate}
+\vspace{2mm}
+\centering \textbf{Contacto: licensing@amarfe.com $\cdot$ https://amarfe.com}
+\end{tcolorbox}
